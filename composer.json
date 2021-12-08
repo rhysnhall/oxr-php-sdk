@@ -1,0 +1,31 @@
+{
+  "name": "rhysnhall/oxr-php-sdk",
+  "version": "0.0.1",
+  "description": "PHP SDK for Open Exchange Rates API.",
+  "type": "library",
+  "keywords": [
+    "oxr",
+    "exchange",
+    "currency",
+    "php",
+    "api",
+    "sdk"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rhys Hall",
+      "email": "hello@rhyshall.com",
+      "homepage": "https://github.com/rhysnhall"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "guzzlehttp/guzzle": "^7.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "OXR\\": "src"
+    }
+  }
+}
